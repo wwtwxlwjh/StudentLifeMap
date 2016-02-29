@@ -99,7 +99,7 @@ var
       ).appendTo('#addressForm')
       .css("display","inline-block")
       .css("margin-left","32%")
-      .css("margin-top","30px");
+      .css("margin-top","25px");
 
       $('<input/>').attr(
         {
