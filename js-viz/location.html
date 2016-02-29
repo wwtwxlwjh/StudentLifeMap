@@ -1,0 +1,68 @@
+<html xmlns:width="http://www.w3.org/1999/xhtml">
+<head>
+
+    <!-- javascript loaded -->
+    <script src="lib/jquery.min.js"></script>
+
+    <script src="lib/highstock.js"></script>
+    <script src="lib/highcharts-more.js"></script>
+    <script src="lib/heatmap.js"></script>
+
+    <script src="lib/exporting.js"></script>
+    <script src="lib/boost.src.js"></script>
+    <script src="lib/customEvents.js"></script>
+
+    <script src="lib/underscore.js"></script>
+
+
+    <link rel='stylesheet' href='fullcalendar/fullcalendar.css'/>
+    <script src='lib/moment.js'></script>
+    <script src='fullcalendar/fullcalendar.js'></script>
+
+    <script src="js/showcharts.js"></script>
+    <script src="lib/sandtheme.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+          integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+          crossorigin="anonymous">
+
+
+</head>
+<body>
+
+<div id="timeSpentBar"></div>
+
+<div id="barTimeSpentCharts" style="width:50%; float:left;"></div>
+<div id="heatMapTimeSpent" style="width:50%; float:right;">></div>
+
+<div id="weekdayChart"></div>
+<div id="dateTimeWorkChart"></div>
+
+<div id="leftReturnedAreaSpline" style="width:100%; height:600px;"></div>
+
+<style>
+    #weekdayChart {
+        float: left;
+        width: 50%;
+    }
+
+    #dateTimeWorkChart {
+        float: right;
+        width: 50%;
+    }
+
+    #timeSpentBar {
+        float: right;
+        width: 100%;
+    }
+</style>
+
+
+<div id="calendar"></div>
+
+</body>
+</html>

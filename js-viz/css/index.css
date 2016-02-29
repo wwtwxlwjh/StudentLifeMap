@@ -1,0 +1,464 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 25px;
+    margin: 0;
+    /*background-color: rgb(229,229,220);*/
+
+    /*margin: 0 auto;*/
+}
+.cd-fixed-bg {
+ min-height: 100%;
+ background-size: cover;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-position: center center;
+}
+.cd-fixed-bg.cd-bg-1 {
+ background-image: url("../img/welcome.jpg");
+}
+.cd-fixed-bg.cd-bg-2 {
+ background-image: url("../img/2.jpg");
+}
+.cd-fixed-bg.cd-bg-3 {
+ background-image: url("../img/3.jpg");
+}
+
+ 
+.cd-scrolling-bg {
+  position: relative;
+  min-height: 100%;
+  padding: 1em 0;
+  line-height: 1.6;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+.cd-scrolling-bg.cd-color-1 {
+  background-color: rgb(229,229,220);
+  
+}
+.cd-scrolling-bg.cd-color-2 {
+  background-color: #f9f4ed;
+ 
+}
+.cd-scrolling-bg.cd-color-3 {
+  background-color: #FFEEED;
+ 
+}
+
+
+body.working {
+    cursor: progress;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.centerDiv {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*margin: auto;*/
+}
+
+#welcome-div {
+    
+    width: 100%;
+    padding-top: 15%;
+    /*padding-bottom: 15%;*/
+    color: #fff; 
+    font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+    /*margin-top: 150px;*/
+    margin-bottom: -60px;
+}
+
+#welcome-div h2{
+  font-family:"Century Gothic",Helvetica, Arial, sans-serif;
+  font-size: 2.3em;
+  font-weight: lighter;
+  margin-top: 0px;
+}
+
+#welcome-div h3{
+  font-size: 0.8em;
+  font-weight: lighter;
+  margin-bottom: 62px;
+  color: #E2D6D3;
+}
+
+#authorize-div{
+  font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+  color: #fff; 
+}
+
+#content{
+  font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+}
+
+#address-div{
+  width: 100%;
+  padding-bottom: 10%;
+
+}
+#address-div h2{
+  padding-top: 10%;
+  font-weight: lighter;
+  margin-bottom: 40px;
+  margin-top: 0px;
+  
+  
+}
+
+#addressForm{
+  text-align: left;
+
+}
+
+/*#addressForm label{
+  font-size: 23px;
+  margin-left: 31%;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  margin-top: 400px;
+}*/
+#addressForm label{
+  font-size: 27px;
+  margin-left: 31%;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+input[type='text']{
+  width: 300px;
+  height: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+
+#homeAddress0{
+  position: absolute;
+  left: 50%;
+  top:244px;
+}
+#workAddress0{
+  position: absolute;
+  left: 50%;
+  top:290px;
+}
+#hobbyAddress0{
+  position: absolute;
+  left: 50%;
+  top:337px;
+}
+
+#daysCount{
+  position: absolute;
+  left: 50%;
+  top:384px;
+}
+
+#addressContinue{
+  width: 230px;
+  font-size: 0.8em;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#addressStatus label{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+/*.addMargin {
+    margin-bottom: 250px;
+}*/
+#source-div{
+   width: 100%;
+   padding-bottom: 10%;
+   
+}
+#source-div h2{
+  padding-top: 15%;
+  font-weight: lighter;
+  color: #ffffff;
+  margin-top: 0px;
+}
+
+
+input[type='radio']{
+  display: inline-block; 
+  margin-left: 80px;
+}
+
+#yesRadio{
+  margin: 0 auto;
+}
+
+#nextButton{
+  width: 200px;
+  font-size: 0.8em;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+#download-div h2{
+  padding-top: 8%;
+  font-weight: lighter;
+}
+
+#download-content {
+  text-align: left;
+  font-weight: lighter;
+}
+#download-content a:link {
+    color: rgb(255,97,83);
+    
+}
+
+#download-content a:visited {
+    color: rgb(255,97,83);
+}
+
+
+#download-content li{
+  margin-left: 6%;
+  margin-right: 6%;
+  padding-bottom: 20px;
+}
+
+#upload-div{
+  width: 100%;
+  
+  padding-bottom: 10%;
+
+}
+
+#upload-div h2{
+  font-weight: lighter;
+  padding-top: 15%;
+  color:#ffffff;
+  margin-top: 0px;
+  
+}
+
+#upload-div p{
+  color: #E2D6D3;
+  font-size: 1em;
+}
+
+#uploadingData-div h2{
+  padding-top: 10%;
+  font-weight: lighter;
+  
+}
+
+#calendar-div h2{
+  padding-top: 10%;
+  font-weight: lighter;
+}
+#success-div h2{
+  font-weight: lighter;
+  padding-top: 15%;
+  
+}
+
+#file{
+  background-color: rgb(176,176,176);
+  width: 230px;
+  margin-top: 10px;
+}
+
+.addMargin h2{
+  font-weight: lighter;
+}
+
+.btn {
+    -moz-border-radius: 15px; 
+    border-style: none;
+    color: #fff; 
+    background-color: rgb(255,97,83);
+    font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding: 13px 15px 10 15px;
+    text-decoration: none;
+    margin-left: -45px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.btn.btn-small{ 
+    position: absolute;
+    left: 968px;
+    top:290px;
+    height: 40px;
+    text-align: center;
+}
+
+.btn.btn-small ~.btn.btn-small{ 
+    position: absolute;
+    left: 968px;
+    top:337px;
+    height: 40px;
+    text-align: center;
+}
+
+
+.btn:hover {
+    background-image: -webkit-linear-gradient(top, rgb(255,97,83), rgb(255,97,83);
+    background-image: -moz-linear-gradient(top, rgb(255,97,83), rgb(255,97,83));
+    background-image: -ms-linear-gradient(top, rgb(255,97,83), rgb(255,97,83));
+    background-image: -o-linear-gradient(top, rgb(255,97,83), rgb(255,97,83));
+    background-image: linear-gradient(to bottom, rgb(255,97,83), rgb(255,97,83));;
+    text-decoration: none;
+}
+
+
+
+/*---------------------
+-----------------------
+-----------------------*/
+
+/*---------------------
+-----------------------
+-----------------------*/
+
+
+li {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: left;
+}
+
+
+.map-active .container {
+	/* so that clicks go through to the map! */
+	pointer-events: none;
+}
+
+.note {
+  padding: 10px;
+  text-align: center;
+  background-color: #ffeb3b;
+}
+
+#working-div {
+	text-align: center;
+}
+
+.formLayout
+{
+    padding: 10px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.formLayout label, .formLayout input
+{
+    display: block;
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.formLayout label
+{
+    text-align: right;
+    padding-right: 20px;
+}
+
+.formLayout input
+{
+    width: 320px;
+}
+
+br
+{
+    clear: left;
+}
+
+.extraSpace {
+    margin-top: 100px;
+}
+
+#done {
+	cursor: pointer;
+}
+
+#controls {
+  z-index: 99999;
+  position: absolute;
+  overflow: hidden;
+  bottom: -200px;
+  /* We set a specific height here so that revealing only the top part of the
+  div will always reveal the *correct* top part. When we expand it later (on hover),
+  we set height back to auto, so that all the content is shown correctly. Slightly
+  hacky, yes, but it appears to be working in all browsers. A Good Thing. */
+  height: 171px;
+  left: 0px;
+  margin: 0px 10px;
+  padding: 3px 16px 5px;
+  background-color: rgba(255,255,255,0.7);
+  transition: bottom 0.5s;
+}
+
+.map-active #controls {
+  bottom: -145px;
+}
+
+
+/* http://tobiasahlin.com/spinkit/ */
+
+.spinner {
+  margin: 20px auto 0;
+  width: 70px;
+  text-align: center;
+}
+
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: #333;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+  animation: bouncedelay 1.4s infinite ease-in-out;
+  /* Prevent first frame from flickering when animation starts */
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0.0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes bouncedelay {
+  0%, 80%, 100% {
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 40% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
